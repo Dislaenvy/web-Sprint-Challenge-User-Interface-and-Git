@@ -28,6 +28,53 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 95%;
+    height: 100px;
+}
+
+
+.logo nav a {
+    justify-content: space-between;
+    align-content: space-evenly;
+    text-decoration: none;
+    padding:10px 30px;
+    color: black;
+    font-size: 14px; 
+     
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+
+div .box {
+    border: solid;
+    background: blue        
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 body {
 	line-height: 1;
 }
